@@ -1,0 +1,13 @@
+->
+  <!-- flash-messages.ejs -->
+<% if (locals.flash && locals.flash.success) { %>
+    <div class="alert alert-success">
+      <%= locals.flash.success %>
+    </div>
+  <% } %>
+  <% if (locals.flash && locals.flash.error) { %>
+    <div class="alert alert-danger">
+      <%= locals.flash.error %>
+    </div>
+  <% } %>
+  
