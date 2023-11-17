@@ -3,7 +3,7 @@ This web application allows employees to manage student interviews and results. 
 
 
 Copy code
-git clone https://github.com/yourusername/your-repo.git
+git clone [(https://github.com/DeekshaTiwari5/Placement_Cell.git]
 cd your-repo
 Install Dependencies
 
@@ -28,7 +28,7 @@ Running the App
 bash
 
 npm start
-The app will be running at http://localhost:3000.
+The app will be running at http://localhost:8000.
 
 Folder Structure
 models/: Contains database models (students, interviews, results).
